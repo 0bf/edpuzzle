@@ -14,7 +14,351 @@ A script that will automatically answer questions and skip the long videos on ed
 
 
 ```js
-function _0x734a(){const _0x23f8b7=['append','name','edpuzzle_data','input','assignment','width=600,\x20height=400','send','Please\x20re-run\x20this\x20script\x20in\x20the\x20newly\x20opened\x20tab.\x20If\x20nothing\x20happens,\x20then\x20allow\x20popups\x20on\x20Schoology\x20and\x20try\x20again.','Fetching\x20assignments\x20(page\x20','startsWith','no\x20due\x20date','_blank','document','url','parse','Please\x20run\x20this\x20script\x20on\x20an\x20Edpuzzle\x20assignment.\x20For\x20reference,\x20the\x20URL\x20should\x20look\x20like\x20this:\x0ahttps://edpuzzle.com/assignments/{ASSIGNMENT_ID}/watch','questions','text','hidden','getElementById','Error:\x20Status\x20code\x20','length','contentId','test','schoologyMoreLess','html','setAttribute','teacherAssignments',')...','https://edpuzzle.com/api/v3/assignments/classrooms/','open','/assignments/','token','https://raw.githubusercontent.com/ading2210/edpuzzle-answers/main','push','authorization','\x0a\x20\x20<!DOCTYPE\x20html>\x0a\x20\x20<head>\x0a\x20\x20\x20\x20<style>\x0a\x20\x20\x20\x20\x20\x20*\x20{font-family:\x20Arial}\x0a\x20\x20\x20\x20</style>\x0a\x20\x20\x20\x20<script>\x0a\x20\x20\x20\x20\x20\x20var\x20base_url\x20=\x20\x22','time','type','split','content','location','</b></h2>\x0a\x20\x20\x20\x20\x20\x20<p\x20style=\x22font-size:\x2012px\x22>Uploaded\x20by\x20','undefined','toDateString','responseText','setRequestHeader','/students/?needle=','disabled','897535mjIZcJ','div','canvasReadyState','user','medias','</p>\x0a\x20\x20\x20\x20\x20\x20<p\x20style=\x22font-size:\x2012px\x22>Assigned\x20on\x20','loading_text','<li\x20class=\x22choice\x20choice-correct\x22>','_id','ext_submit',']</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22question\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','toString','__EDPUZZLE_DATA__','/launch/iframe','221748hYkmjd','replace','https://edpuzzle.com/api/v3/assignments/','edpuzzle.hs.vc','startDate','4005000uqwbnk','</title>\x0a\x20\x20</head>\x0a\x20\x20<div\x20id=\x22header_div\x22>\x0a\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20<img\x20src=\x22','body','</li>','/external_tool/','\x20recieved\x20when\x20attempting\x20to\x20fetch\x20the\x20assignment\x20data.','hostname','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20style=\x22margin-top:\x206px;\x20margin-bottom:\x200px;\x20padding-left:\x2018px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','classroom','value','1770685wcPeZk','\x20recieved\x20when\x20attempting\x20to\x20fetch\x20the\x20answers.','806784mGKaDM','write','innerHTML','https://','<p\x20style=\x22font-size:\x2012px\x22>No\x20valid\x20multiple\x20choice\x20questions\x20were\x20found.</p>','dueDate','about:blank','join','</p>','submit','due\x20on\x20','target','querySelector','href','remove','28393QPcMan','4764568AkCtCg','addEventListener','choices','Submit','preferences','thumbnailURL','answers_button','<p\x20style=\x22font-size:\x2012px\x22>Error:\x20Could\x20not\x20get\x20the\x20media\x20for\x20this\x20assignment.\x20</p>','dev_env','createElement','To\x20use\x20this,\x20drag\x20this\x20button\x20into\x20your\x20bookmarks\x20bar.\x20Then,\x20run\x20it\x20when\x20you\x27re\x20on\x20an\x20Edpuzzle\x20assignment.','GET','status','22ClRlws','load','form','\x22;\x0a\x20\x20\x20\x20\x20\x20function\x20http_get(url,\x20callback)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20var\x20request\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20\x20\x20\x20\x20request.addEventListener(\x22load\x22,\x20callback);\x0a\x20\x20\x20\x20\x20\x20\x20\x20request.open(\x22GET\x22,\x20url,\x20true);\x0a\x20\x20\x20\x20\x20\x20\x20\x20request.send();\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20function\x20get_tag(tag,\x20url)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20console.log(\x22Loading\x20\x22+url);\x0a\x20\x20\x20\x20\x20\x20\x20\x20http_get(url,\x20function(){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20((\x22\x22+this.status)[0]\x20==\x20\x222\x22)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20var\x20element\x20=\x20document.createElement(tag);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20element.innerHTML\x20=\x20this.responseText;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20document.getElementsByTagName(\x22head\x22)[0].appendChild(element);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20else\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.error(\x22Could\x20not\x20fetch\x20\x22+url);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20get_tag(\x22style\x22,\x20base_url+\x22/app/popup.css\x22);\x0a\x20\x20\x20\x20\x20\x20get_tag(\x22script\x22,\x20base_url+\x22/app/popup.js\x22);\x0a\x20\x20\x20\x20\x20\x20get_tag(\x22script\x22,\x20base_url+\x22/app/videooptions.js\x22);\x0a\x20\x20\x20\x20\x20\x20get_tag(\x22script\x22,\x20base_url+\x22/app/videospeed.js\x22);\x0a\x20\x20\x20\x20</script>\x0a\x20\x20\x20\x20<title>Answers\x20for:\x20'];_0x734a=function(){return _0x23f8b7;};return _0x734a();}const _0x122aa0=_0x585d;(function(_0x12c0dd,_0x153509){const _0x12512c=_0x585d,_0x51dd29=_0x12c0dd();while(!![]){try{const _0x36f604=-parseInt(_0x12512c(0x167))/0x1*(-parseInt(_0x12512c(0x175))/0x2)+-parseInt(_0x12512c(0x1b8))/0x3+parseInt(_0x12512c(0x1c9))/0x4+parseInt(_0x12512c(0x1aa))/0x5+parseInt(_0x12512c(0x1bd))/0x6+-parseInt(_0x12512c(0x1c7))/0x7+-parseInt(_0x12512c(0x168))/0x8;if(_0x36f604===_0x153509)break;else _0x51dd29['push'](_0x51dd29['shift']());}catch(_0x429e1b){_0x51dd29['push'](_0x51dd29['shift']());}}}(_0x734a,0x6b138));var popup=null,base_url;typeof document[_0x122aa0(0x170)]!='undefined'?base_url=document[_0x122aa0(0x170)]:base_url=_0x122aa0(0x19a);function http_get(_0x5a7a13,_0x2990c9,_0x24323e=[],_0x329aa6=_0x122aa0(0x173),_0x161ff9=null){const _0x232624=_0x122aa0;var _0x21349f=new XMLHttpRequest();_0x21349f[_0x232624(0x169)](_0x232624(0x176),_0x2990c9),_0x21349f[_0x232624(0x197)](_0x329aa6,_0x5a7a13,!![]);window['__EDPUZZLE_DATA__']&&window[_0x232624(0x1b6)][_0x232624(0x199)]&&_0x24323e['push']([_0x232624(0x19c),window['__EDPUZZLE_DATA__']['token']]);for(const _0x1eaf31 of _0x24323e){_0x21349f[_0x232624(0x1a7)](_0x1eaf31[0x0],_0x1eaf31[0x1]);}_0x21349f[_0x232624(0x17f)](_0x161ff9);}function init(){const _0x274a9a=_0x122aa0;if(window[_0x274a9a(0x1a2)][_0x274a9a(0x1c3)]==_0x274a9a(0x1bb))alert(_0x274a9a(0x172));else{if(/https{0,1}:\/\/edpuzzle.com\/assignments\/[a-f0-9]{1,30}\/watch/[_0x274a9a(0x190)](window['location'][_0x274a9a(0x165)]))getAssignment();else{if(window[_0x274a9a(0x1ac)])handleCanvasURL();else window[_0x274a9a(0x191)]?handleSchoologyURL():alert(_0x274a9a(0x188));}}}function handleCanvasURL(){const _0x1f2822=_0x122aa0;let _0x3ea0af=window['location'][_0x1f2822(0x165)][_0x1f2822(0x1a0)]('/'),_0x43b5c2='/api/v1/courses/'+_0x3ea0af[0x4]+_0x1f2822(0x198)+_0x3ea0af[0x6];http_get(_0x43b5c2,function(){const _0x1bb4a9=_0x1f2822;let _0x5817cd=JSON[_0x1bb4a9(0x187)](this[_0x1bb4a9(0x1a6)]),_0x391ef7=_0x5817cd[_0x1bb4a9(0x186)];http_get(_0x391ef7,function(){const _0x2b5e0c=_0x1bb4a9;let _0x45de9e=JSON[_0x2b5e0c(0x187)](this[_0x2b5e0c(0x1a6)]),_0x50e228=_0x45de9e[_0x2b5e0c(0x186)];alert('Please\x20re-run\x20this\x20script\x20in\x20the\x20newly\x20opened\x20tab.\x20If\x20nothing\x20happens,\x20then\x20allow\x20popups\x20on\x20Canvas\x20and\x20try\x20again.'),open(_0x50e228);});});}function handleSchoologyURL(){const _0x75fc9f=_0x122aa0;let _0x1c8caf=window[_0x75fc9f(0x1a2)][_0x75fc9f(0x165)][_0x75fc9f(0x1a0)]('/')[0x4],_0x9e4e64=_0x75fc9f(0x1c1)+_0x1c8caf+_0x75fc9f(0x1b7);http_get(_0x9e4e64,function(){const _0x20badd=_0x75fc9f;alert(_0x20badd(0x180));let _0x43e750=this[_0x20badd(0x1a6)][_0x20badd(0x1b9)](/<script[\s\S]+?<\/script>/,''),_0x213e55=document[_0x20badd(0x171)](_0x20badd(0x1ab));_0x213e55[_0x20badd(0x1cb)]=_0x43e750;let _0x2adb99=_0x213e55[_0x20badd(0x164)](_0x20badd(0x177)),_0x5c2f17=document[_0x20badd(0x171)](_0x20badd(0x17c));_0x5c2f17['setAttribute'](_0x20badd(0x19f),_0x20badd(0x18b)),_0x5c2f17[_0x20badd(0x193)]('name',_0x20badd(0x1b3)),_0x5c2f17[_0x20badd(0x193)](_0x20badd(0x1c6),_0x20badd(0x16b)),_0x2adb99[_0x20badd(0x179)](_0x5c2f17),document[_0x20badd(0x1bf)][_0x20badd(0x179)](_0x213e55),_0x2adb99[_0x20badd(0x193)](_0x20badd(0x163),_0x20badd(0x184)),_0x2adb99[_0x20badd(0x1d2)](),_0x213e55['remove']();});}function getAssignment(_0xaa3f55){const _0x36db0c=_0x122aa0;var _0x3055a6=window[_0x36db0c(0x1a2)][_0x36db0c(0x165)][_0x36db0c(0x1a0)]('/')[0x4];if(typeof _0x3055a6==_0x36db0c(0x1a4)){alert('Error:\x20Could\x20not\x20infer\x20the\x20assignment\x20ID.\x20Are\x20you\x20on\x20the\x20correct\x20URL?');return;}var _0x206417=_0x36db0c(0x1ba)+_0x3055a6;http_get(_0x206417,function(){const _0x392249=_0x36db0c;var _0x4f1996=JSON[_0x392249(0x187)](this[_0x392249(0x1a6)]);(''+this[_0x392249(0x174)])[0x0]=='2'?openPopup(_0x4f1996):alert(_0x392249(0x18d)+this[_0x392249(0x174)]+_0x392249(0x1c2));});}function openPopup(_0xd401ab){const _0x552453=_0x122aa0;var _0x31b504=_0xd401ab[_0x552453(0x1ae)][0x0],_0x2efc34=_0xd401ab[_0x552453(0x194)][0x0],_0x89a571=new Date(_0x2efc34['preferences'][_0x552453(0x1bc)]),_0x14598a=new Date(_0x31b504['createdAt']);thumbnail=_0x31b504[_0x552453(0x16d)];thumbnail[_0x552453(0x182)]('/')&&(thumbnail=_0x552453(0x1cc)+window[_0x552453(0x1a2)]['hostname']+thumbnail);var _0x118d95;_0x2efc34[_0x552453(0x16c)][_0x552453(0x1ce)]==''?_0x118d95=_0x552453(0x183):_0x118d95=_0x552453(0x1d3)+new Date(_0x2efc34[_0x552453(0x16c)][_0x552453(0x1ce)])[_0x552453(0x1a5)]();var _0x3491a4=_0x552453(0x19d)+base_url+_0x552453(0x178)+_0x31b504['title']+_0x552453(0x1be)+thumbnail+'\x22\x20height=\x22108px\x22>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20id=\x22title_div\x22>\x0a\x20\x20\x20\x20\x20\x20<p\x20style=\x22font-size:\x2016px\x22><b>'+_0x31b504['title']+_0x552453(0x1a3)+_0x31b504[_0x552453(0x1ad)][_0x552453(0x17a)]+'\x20on\x20'+_0x14598a[_0x552453(0x1a5)]()+_0x552453(0x1af)+_0x89a571[_0x552453(0x1a5)]()+',\x20'+_0x118d95+'</p>\x0a\x20\x20\x20\x20\x20\x20<p\x20style=\x22font-size:\x2012px\x22>Correct\x20choices\x20are\x20<u>underlined</u>.</p>\x0a\x20\x20\x20\x20\x20\x20<input\x20id=\x22skipper\x22\x20type=\x22button\x22\x20value=\x22Skip\x20Video\x22\x20onclick=\x22skip_video();\x22\x20disabled/>\x0a\x20\x20\x20\x20\x20\x20<input\x20id=\x22answers_button\x22\x20type=\x22button\x22\x20value=\x22Answer\x20Questions\x22\x20onclick=\x22answer_questions();\x22\x20disabled/>\x0a\x20\x20\x20\x20\x20\x20<div\x20id=\x22speed_container\x22\x20hidden>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22font-size:\x2012px\x22\x20for=\x22speed_dropdown\x22>Video\x20speed:</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<select\x20name=\x22speed_dropdown\x22\x20id=\x22speed_dropdown\x22\x20onchange=\x22video_speed()\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x220.25\x22>0.25</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x220.5\x22>0.5</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x220.75\x22>0.75</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x221\x22\x20selected>Normal</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x221.25\x22>1.25</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x221.5\x22>1.5</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x221.75\x22>1.75</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x222\x22>2</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22-1\x22>Custom</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<label\x20id=\x22custom_speed_label\x22\x20style=\x22font-size:\x2012px\x22\x20for=\x22custom_speed\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22range\x22\x20id=\x22custom_speed\x22\x20name=\x22custom_speed\x22\x20value=\x221\x22\x20min=\x220.1\x22\x20max=\x2216\x22\x20step=\x220.1\x22\x20oninput=\x22video_speed()\x22\x20hidden>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20id=\x22options_container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22pause_on_focus\x22\x20style=\x22font-size:\x2012px\x22>Don\x27t\x20pause\x20on\x20unfocus:\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22pause_on_focus\x22\x20name=\x22pause_on_focus\x22\x20onchange=\x22toggle_unfocus();\x22>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a\x20\x20<hr>\x0a\x20\x20<div\x20id=\x22content\x22>\x20\x0a\x20\x20\x20\x20<p\x20style=\x22font-size:\x2012px\x22\x20id=\x22loading_text\x22></p>\x0a\x20\x20</div>\x0a\x20\x20<hr>\x0a\x20\x20<p\x20style=\x22font-size:\x2012px\x22>Made\x20by:\x20<a\x20target=\x22_blank\x22\x20href=\x22https://github.com/0bf\x22>0bf</a>\x20on\x20Github\x20|\x20Website:\x20<a\x20target=\x22_blank\x22\x20href=\x22https://itami.shop\x22>edpuzzle.hs.vc</a>\x20|\x20Source\x20code:\x20<a\x20target=\x22_blank\x22\x20href=\x22https://github.com/0bf/edpuzzle\x22>0bf/edpuzzle</a></p>\x0a\x20\x20<p\x20style=\x22font-size:\x2012px\x22>Available\x20now\x20from\x20our\x20<a\x20target=\x22_blank\x22\x20href=\x22https://discord.gg/63PmtWGSgZ\x22>Discord\x20server</a>:\x20<i></i></p>';popup=window[_0x552453(0x197)](_0x552453(0x1cf),'',_0x552453(0x17e)),popup[_0x552453(0x185)][_0x552453(0x1ca)](_0x3491a4),popup[_0x552453(0x185)][_0x552453(0x17d)]=_0xd401ab,popup[_0x552453(0x185)]['dev_env']=document[_0x552453(0x170)],popup[_0x552453(0x185)][_0x552453(0x17b)]=window[_0x552453(0x1b6)],getMedia(_0xd401ab);}function getMedia(_0x436773,_0xa58831='',_0x472f7e=0x1){const _0x21465a=_0x122aa0;var _0x35f96b=popup[_0x21465a(0x185)][_0x21465a(0x18c)](_0x21465a(0x1b0));_0x35f96b['innerHTML']=_0x21465a(0x181)+_0x472f7e+_0x21465a(0x195);var _0xde2031=_0x436773['teacherAssignments'][0x0][_0x21465a(0x18f)],_0x4c8a1d=_0x436773['teacherAssignments'][0x0][_0x21465a(0x1c5)]['id'],_0x34fb66=_0x21465a(0x196)+_0x4c8a1d+_0x21465a(0x1a8)+_0xa58831;http_get(_0x34fb66,function(){const _0x72ecd5=_0x21465a;if((''+this[_0x72ecd5(0x174)])[0x0]=='2'){var _0x2f3d55=JSON[_0x72ecd5(0x187)](this[_0x72ecd5(0x1a6)]);if(_0x2f3d55['medias'][_0x72ecd5(0x18e)]==0x0){parseQuestions(null);return;}var _0x3bf438;for(let _0x24e149=0x0;_0x24e149<_0x2f3d55['medias'][_0x72ecd5(0x18e)];_0x24e149++){_0x3bf438=_0x2f3d55[_0x72ecd5(0x1ae)][_0x24e149];if(_0x3bf438[_0x72ecd5(0x1b2)]==_0xde2031){parseQuestions(_0x3bf438[_0x72ecd5(0x189)]);return;}}getMedia(_0x436773,_0x2f3d55['teacherAssignments'][_0x2f3d55[_0x72ecd5(0x194)][_0x72ecd5(0x18e)]-0x1][_0x72ecd5(0x1b2)],_0x472f7e+0x1);}else{var _0x18d784=popup[_0x72ecd5(0x185)][_0x72ecd5(0x18c)](_0x72ecd5(0x1b0)),_0x5c0280=popup['document'][_0x72ecd5(0x18c)](_0x72ecd5(0x1a1));popup[_0x72ecd5(0x185)][_0x72ecd5(0x189)]=questions,_0x18d784[_0x72ecd5(0x166)](),_0x5c0280[_0x72ecd5(0x1cb)]+=_0x72ecd5(0x18d)+this['status']+_0x72ecd5(0x1c8);}});}function _0x585d(_0x249009,_0x423f64){const _0x734af9=_0x734a();return _0x585d=function(_0x585db3,_0x3ab91c){_0x585db3=_0x585db3-0x163;let _0x2fb293=_0x734af9[_0x585db3];return _0x2fb293;},_0x585d(_0x249009,_0x423f64);}function parseQuestions(_0xe2ff31){const _0x29cc9d=_0x122aa0;var _0xd4b9e4=popup[_0x29cc9d(0x185)][_0x29cc9d(0x18c)](_0x29cc9d(0x1b0)),_0x241ef7=popup['document'][_0x29cc9d(0x18c)](_0x29cc9d(0x1a1));popup['document'][_0x29cc9d(0x189)]=_0xe2ff31,_0xd4b9e4[_0x29cc9d(0x166)]();if(_0xe2ff31==null){_0x241ef7['innerHTML']+=_0x29cc9d(0x16f);return;}var _0x5d0fb2,_0x2f7739=0x0,_0x3c4445=0x0;for(let _0x4718a5=0x0;_0x4718a5<_0xe2ff31[_0x29cc9d(0x18e)];_0x4718a5++){for(let _0x5285b5=0x0;_0x5285b5<_0xe2ff31['length']-_0x4718a5-0x1;_0x5285b5++){if(_0xe2ff31[_0x5285b5]['time']>_0xe2ff31[_0x5285b5+0x1][_0x29cc9d(0x19e)]){let _0x2f4431=_0xe2ff31[_0x5285b5];_0xe2ff31[_0x5285b5]=_0xe2ff31[_0x5285b5+0x1],_0xe2ff31[_0x5285b5+0x1]=_0x2f4431;}}}for(let _0x4fa9b8=0x0;_0x4fa9b8<_0xe2ff31[_0x29cc9d(0x18e)];_0x4fa9b8++){_0x5d0fb2=_0xe2ff31[_0x4fa9b8];let _0x9bd04e=[];if(typeof _0x5d0fb2[_0x29cc9d(0x16a)]!=_0x29cc9d(0x1a4)){let _0x21cf3a=Math['floor'](_0x5d0fb2[_0x29cc9d(0x19e)]/0x3c)[_0x29cc9d(0x1b5)](),_0x11cb5d=Math['floor'](_0x5d0fb2['time']%0x3c)[_0x29cc9d(0x1b5)]();_0x11cb5d[_0x29cc9d(0x18e)]==0x1&&(_0x11cb5d='0'+_0x11cb5d);let _0x2080fb=_0x21cf3a+':'+_0x11cb5d,_0x391d7b;_0x5d0fb2['body'][0x0][_0x29cc9d(0x18a)]!=''?_0x391d7b='<p>'+_0x5d0fb2[_0x29cc9d(0x1bf)][0x0][_0x29cc9d(0x18a)]+_0x29cc9d(0x1d1):_0x391d7b=_0x5d0fb2['body'][0x0][_0x29cc9d(0x192)];for(let _0x407636=0x0;_0x407636<_0x5d0fb2['choices'][_0x29cc9d(0x18e)];_0x407636++){let _0x415a9b=_0x5d0fb2[_0x29cc9d(0x16a)][_0x407636];if(typeof _0x415a9b['body']!='undefined'){_0x2f7739++;let _0xde864e;_0x415a9b[_0x29cc9d(0x1bf)][0x0][_0x29cc9d(0x18a)]!=''?_0xde864e='<p>'+_0x415a9b[_0x29cc9d(0x1bf)][0x0][_0x29cc9d(0x18a)]+_0x29cc9d(0x1d1):_0xde864e=''+_0x415a9b[_0x29cc9d(0x1bf)][0x0][_0x29cc9d(0x192)],_0x415a9b['isCorrect']==!![]?_0x9bd04e[_0x29cc9d(0x19b)](_0x29cc9d(0x1b1)+_0xde864e+_0x29cc9d(0x1c0)):_0x9bd04e[_0x29cc9d(0x19b)]('<li\x20class=\x22choice\x22>'+_0xde864e+_0x29cc9d(0x1c0));}}let _0x28c5de=_0x9bd04e[_0x29cc9d(0x1d0)]('\x0a'),_0x355df1='';_0x3c4445!=0x0&&(_0x355df1+='<hr>'),_0x355df1+='\x0a\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20class=\x22header\x20no_vertical_margin\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22timestamp_div\x20no_vertical_margin\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>['+_0x2080fb+_0x29cc9d(0x1b4)+_0x391d7b+_0x29cc9d(0x1c4)+_0x28c5de+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20',_0x241ef7[_0x29cc9d(0x1cb)]+=_0x355df1,_0x3c4445++;}}popup[_0x29cc9d(0x185)]['getElementById']('skipper')[_0x29cc9d(0x1a9)]=![],_0x2f7739==0x0?_0x241ef7[_0x29cc9d(0x1cb)]+=_0x29cc9d(0x1cd):popup[_0x29cc9d(0x185)][_0x29cc9d(0x18c)](_0x29cc9d(0x16e))['disabled']=![],popup[_0x29cc9d(0x189)]=_0xe2ff31;}init();
+var popup = null;
+var base_url;
+if (typeof document.dev_env != "undefined") {
+  base_url = document.dev_env;
+}
+else {
+  //get resources off of github to not inflate the jsdelivr stats
+  base_url = "https://raw.githubusercontent.com/ading2210/edpuzzle-answers/main";
+}
+
+function http_get(url, callback, headers=[], method="GET", content=null) {
+  var request = new XMLHttpRequest();
+  request.addEventListener("load", callback);
+  request.open(method, url, true);
+
+  if (window.__EDPUZZLE_DATA__ && window.__EDPUZZLE_DATA__.token) {
+    headers.push(["authorization", window.__EDPUZZLE_DATA__.token]);
+  }
+  for (const header of headers) {
+    request.setRequestHeader(header[0], header[1]);
+  }
+  
+  request.send(content);
+}
+
+function init() {
+  if (window.location.hostname == "edpuzzle.hs.vc") {
+    alert("To use this, drag this button into your bookmarks bar. Then, run it when you're on an Edpuzzle assignment.");
+  }
+  else if ((/https{0,1}:\/\/edpuzzle.com\/assignments\/[a-f0-9]{1,30}\/watch/).test(window.location.href)) {
+    getAssignment();
+  }
+  else if (window.canvasReadyState) {
+    handleCanvasURL();
+  }
+  else if (window.schoologyMoreLess) {
+    handleSchoologyURL();
+  }
+  else {
+    alert("Please run this script on an Edpuzzle assignment. For reference, the URL should look like this:\nhttps://edpuzzle.com/assignments/{ASSIGNMENT_ID}/watch");
+  }
+}
+
+function handleCanvasURL() {
+  let location_split = window.location.href.split("/");
+  let url = `/api/v1/courses/${location_split[4]}/assignments/${location_split[6]}`;
+  http_get(url, function(){
+    let data = JSON.parse(this.responseText);
+    let url2 = data.url;
+
+    http_get(url2, function() {
+      let data = JSON.parse(this.responseText);
+      let url3 = data.url;
+
+      alert(`Please re-run this script in the newly opened tab. If nothing happens, then allow popups on Canvas and try again.`);
+      open(url3);
+    });
+  });
+}
+
+function handleSchoologyURL() {
+  let assignment_id = window.location.href.split("/")[4];
+  let url = `/external_tool/${assignment_id}/launch/iframe`;
+  http_get(url, function() {
+    alert(`Please re-run this script in the newly opened tab. If nothing happens, then allow popups on Schoology and try again.`);
+
+    //strip js tags from response and add to dom
+    let html = this.responseText.replace(/<script[\s\S]+?<\/script>/, ""); 
+    let div = document.createElement("div");
+    div.innerHTML = html;
+    let form = div.querySelector("form");
+    
+    let input = document.createElement("input")
+    input.setAttribute("type", "hidden");
+    input.setAttribute("name", "ext_submit");
+    input.setAttribute("value", "Submit");
+    form.append(input);
+    document.body.append(div);
+
+    //submit form in new tab
+    form.setAttribute("target", "_blank");
+    form.submit();
+    div.remove();
+  });
+}
+
+function getAssignment(callback) {
+  var assignment_id = window.location.href.split("/")[4];
+  if (typeof assignment_id == "undefined") {
+    alert("Error: Could not infer the assignment ID. Are you on the correct URL?");
+    return;
+  }
+  var url1 = "https://edpuzzle.com/api/v3/assignments/"+assignment_id;
+
+  http_get(url1, function(){
+    var assignment = JSON.parse(this.responseText);
+    if ((""+this.status)[0] == "2") {
+      openPopup(assignment);
+    }
+    else {
+      alert(`Error: Status code ${this.status} recieved when attempting to fetch the assignment data.`)
+    }
+  });
+}
+
+function openPopup(assignment) {
+  var media = assignment.medias[0];
+  var teacher_assignment = assignment.teacherAssignments[0];
+  var assigned_date = new Date(teacher_assignment.preferences.startDate);
+  var date = new Date(media.createdAt);
+  thumbnail = media.thumbnailURL;
+  if (thumbnail.startsWith("/")) {
+    thumbnail = "https://"+window.location.hostname+thumbnail;
+  }
+  
+  var deadline_text;
+  if (teacher_assignment.preferences.dueDate == "") {
+    deadline_text = "no due date"
+  }
+  else {
+    deadline_text = "due on "+(new Date(teacher_assignment.preferences.dueDate)).toDateString();
+  }
+  
+  var base_html = `
+  <!DOCTYPE html>
+  <head>
+    <style>
+      * {font-family: Arial}
+    </style>
+    <script>
+      var base_url = "${base_url}";
+      function http_get(url, callback) {
+        var request = new XMLHttpRequest();
+        request.addEventListener("load", callback);
+        request.open("GET", url, true);
+        request.send();
+      }
+      function get_tag(tag, url) {
+        console.log("Loading "+url);
+        http_get(url, function(){
+          if ((""+this.status)[0] == "2") {
+            var element = document.createElement(tag);
+            element.innerHTML = this.responseText;
+            document.getElementsByTagName("head")[0].appendChild(element);
+          }
+          else {
+            console.error("Could not fetch "+url);
+          }
+        });
+      }
+      get_tag("style", base_url+"/app/popup.css");
+      get_tag("script", base_url+"/app/popup.js");
+      get_tag("script", base_url+"/app/videooptions.js");
+      get_tag("script", base_url+"/app/videospeed.js");
+    </script>
+    <title>Answers for: ${media.title}</title>
+  </head>
+  <div id="header_div">
+    <div>
+      <img src="${thumbnail}" height="108px">
+    </div>
+    <div id="title_div">
+      <p style="font-size: 16px"><b>${media.title}</b></h2>
+      <p style="font-size: 12px">Uploaded by ${media.user.name} on ${date.toDateString()}</p>
+      <p style="font-size: 12px">Assigned on ${assigned_date.toDateString()}, ${deadline_text}</p>
+      <p style="font-size: 12px">Correct choices are <u>underlined</u>.</p>
+      <input id="skipper" type="button" value="Skip Video" onclick="skip_video();" disabled/>
+      <input id="answers_button" type="button" value="Answer Questions" onclick="answer_questions();" disabled/>
+      <div id="speed_container" hidden>
+        <label style="font-size: 12px" for="speed_dropdown">Video speed:</label>
+        <select name="speed_dropdown" id="speed_dropdown" onchange="video_speed()">
+          <option value="0.25">0.25</option>
+          <option value="0.5">0.5</option>
+          <option value="0.75">0.75</option>
+          <option value="1" selected>Normal</option>
+          <option value="1.25">1.25</option>
+          <option value="1.5">1.5</option>
+          <option value="1.75">1.75</option>
+          <option value="2">2</option>
+          <option value="-1">Custom</option>
+        </select>
+        <label id="custom_speed_label" style="font-size: 12px" for="custom_speed"></label>
+        <input type="range" id="custom_speed" name="custom_speed" value="1" min="0.1" max="16" step="0.1" oninput="video_speed()" hidden>
+      </div>
+      <div id="options_container">
+        <label for="pause_on_focus" style="font-size: 12px">Don't pause on unfocus: </label>
+        <input type="checkbox" id="pause_on_focus" name="pause_on_focus" onchange="toggle_unfocus();">
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div id="content"> 
+    <p style="font-size: 12px" id="loading_text"></p>
+  </div>
+  <hr>
+  <p style="font-size: 12px">Made by: <a target="_blank" href="https://github.com/0bf">0bf</a> on Github | Website: <a target="_blank" href="https://itami.shop">edpuzzle.hs.vc</a> | Source code: <a target="_blank" href="https://github.com/0bf/edpuzzle">0bf/edpuzzle</a></p>
+  <p style="font-size: 12px">Available now from our <a target="_blank" href="https://discord.gg/63PmtWGSgZ">Discord server</a>: <i></i></p>`;
+  popup = window.open("about:blank", "", "width=600, height=400");
+  popup.document.write(base_html);
+
+  popup.document.assignment = assignment;
+  popup.document.dev_env = document.dev_env;
+  popup.document.edpuzzle_data = window.__EDPUZZLE_DATA__;
+
+  getMedia(assignment);
+}
+
+function getMedia(assignment, needle="", request_count=1) {
+  var text = popup.document.getElementById("loading_text");
+  text.innerHTML = `Fetching assignments (page ${request_count})...`;
+  
+  var media_id = assignment.teacherAssignments[0].contentId;
+  var classroom_id = assignment.teacherAssignments[0].classroom.id;
+  var url2 = "https://edpuzzle.com/api/v3/assignments/classrooms/"+classroom_id+"/students/?needle="+needle;
+
+  http_get(url2, function() {
+    if ((""+this.status)[0] == "2") {
+      var classroom = JSON.parse(this.responseText);
+      if (classroom.medias.length == 0) {
+        parseQuestions(null);
+        return;
+      }
+      var media;
+      for (let i=0; i<classroom.medias.length; i++) {
+        media = classroom.medias[i];
+        if (media._id == media_id) {
+          parseQuestions(media.questions);
+          return;
+        }
+      }
+      getMedia(assignment, classroom.teacherAssignments[classroom.teacherAssignments.length-1]._id, request_count+1);
+    }
+    else {
+      var text = popup.document.getElementById("loading_text");
+      var content = popup.document.getElementById("content");
+      popup.document.questions = questions;
+      text.remove();
+      content.innerHTML += `Error: Status code ${this.status} recieved when attempting to fetch the answers.`;
+    }
+  });
+}
+
+function parseQuestions(questions) {
+  var text = popup.document.getElementById("loading_text");
+  var content = popup.document.getElementById("content");
+  popup.document.questions = questions;
+  text.remove();
+
+  if (questions == null) {
+    content.innerHTML += `<p style="font-size: 12px">Error: Could not get the media for this assignment. </p>`;
+    return;
+  }
+  
+  var question;
+  var counter = 0;
+  var counter2 = 0;
+  for (let i=0; i<questions.length; i++) {
+    for (let j=0; j<questions.length-i-1; j++) {
+      if (questions[j].time > questions[j+1].time){
+       let question_old = questions[j];
+       questions[j] = questions[j + 1];
+       questions[j+1] = question_old;
+     }
+    }
+  }
+  
+  for (let i=0; i<questions.length; i++) {
+    question = questions[i];
+    let choices_lines = [];
+    
+    if (typeof question.choices != "undefined") {
+      let min = Math.floor(question.time/60).toString();
+      let secs = Math.floor(question.time%60).toString();
+      if (secs.length == 1) {
+        secs = "0"+secs;
+      }
+      let timestamp = min+":"+secs;
+      let question_content;
+      if (question.body[0].text != "") {
+        question_content = `<p>${question.body[0].text}</p>`;
+      }
+      else {
+        question_content = question.body[0].html;
+      }
+      for (let j=0; j<question.choices.length; j++) {
+        let choice = question.choices[j];
+        if (typeof choice.body != "undefined") {
+          counter++;
+          let item_html;
+          if (choice.body[0].text != "") {
+            item_html = `<p>${choice.body[0].text}</p>`;
+          }
+          else {
+            item_html = `${choice.body[0].html}`;
+          }
+          if (choice.isCorrect == true) {
+            choices_lines.push(`<li class="choice choice-correct">${item_html}</li>`);
+          }
+          else {
+            choices_lines.push(`<li class="choice">${item_html}</li>`);
+          }
+        }
+      }
+      
+      let choices_html = choices_lines.join("\n");
+      let table = ``
+      if (counter2 != 0) {
+        table += `<hr>`;
+      }
+      table += `
+      <table>
+        <tr class="header no_vertical_margin">
+          <td class="timestamp_div no_vertical_margin">
+            <p>[${timestamp}]</p>
+          </td>
+          <td class="question">
+            ${question_content}
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <ul style="margin-top: 6px; margin-bottom: 0px; padding-left: 18px;">
+              ${choices_html}
+            </ul>
+          </td>
+        </tr>
+      </table>
+      `;
+      
+      content.innerHTML += table;
+      counter2++;
+    }
+  }
+  popup.document.getElementById("skipper").disabled = false;
+  if (counter == 0) {
+    content.innerHTML += `<p style="font-size: 12px">No valid multiple choice questions were found.</p>`;
+  }
+  else {
+    popup.document.getElementById("answers_button").disabled = false;
+  }
+  popup.questions = questions;
+}
+
+init();
 ```
 
 ## Contact me
